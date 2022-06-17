@@ -10,7 +10,7 @@ Before using, please install ffmpeg using homebrew:
 * Install Homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 * Install ffmpeg: brew install ffmpeg
 * Install Python: brew install python
-* Install Python libs: pip3 install (requests|moviepy|PyQt5|pillow)
+* Install Python libs: pip3 install requests moviepy PyQt5 pillow
 
 Also, you will need API access to Unsplash: https://unsplash.com/developers
 * Once you have API access, create a file called user_settings.py in the same directory as the gui.py file.
