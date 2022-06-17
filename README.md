@@ -2,7 +2,7 @@
 GUI to create video files from a folder of audio files.
 
 
-## Before Using
+## Requirements
 Before using, please install ffmpeg using homebrew:
 
 * Open Terminal
