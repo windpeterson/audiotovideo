@@ -15,6 +15,5 @@ Before using, install ffmpeg using homebrew via below instructions:
 * Install Python libs: pip3 install requests moviepy PyQt5 pillow
 
 Also, you will need API access to Unsplash: https://unsplash.com/developers
-* Once you have API access, create a file called user_settings.py in the same directory as the gui.py file.
-* It should set a variable called unsplash_client_id = "value of your client id"
-* This is not applicable if you are using a compiled version.
+* Once you have API access, set unsplash_client_id in user_settings.py
+
