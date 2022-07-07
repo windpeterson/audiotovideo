@@ -5,7 +5,7 @@ GUI to create video files from a folder of audio files.
 ## Requirements
 Recommended: Pycharm Community Edition (Free): https://www.jetbrains.com/pycharm/download/
 
-Before using, install ffmpeg using homebrew using instruction below:
+Before using, install ffmpeg using homebrew via below instructions:
 
 * Open Terminal
 * Install Xcode: xcode-select --install
