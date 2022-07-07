@@ -1,4 +1,4 @@
-# INSTRUCTIONS https://www.youtube.com/watch?v=-zx6odbKMCw
+# INSTRUCTIONS
 # Generating YouTube API Keys
 # 
 #     Log into https://console.cloud.google.com
