@@ -2,7 +2,7 @@
 GUI to create video files from a folder of audio files.
 
 ## Finding Most Searched Pronunciations
-*https://trends.google.com/trends/explore?q=how%20to%20pronounce&geo=US
+* https://trends.google.com/trends/explore?q=how%20to%20pronounce&geo=US
 
 ## Requirements
 Recommended: Pycharm Community Edition (Free): https://www.jetbrains.com/pycharm/download/
