@@ -15,6 +15,7 @@ from io import BytesIO
 from PIL import Image
 from datetime import datetime
 #TODO Youtube upload? dvd logo. include Unsplash accolades
+#pyinstaller --onefile --windowed --target-arch arm64 gui.py
 
 
 def unsplash_image():
@@ -181,7 +182,8 @@ class Window(QMainWindow):
             audio_files_path = Path(self.inputFolder)
             audio_files_mp3 = list(audio_files_path.glob('*.mp3'))
             audio_files_wav = list(audio_files_path.glob('*.wav'))
-            audio_files = audio_files_wav + audio_files_mp3
+            audio_files_m4a = list(audio_files_path.glob('*.m4a'))
+            audio_files = audio_files_wav + audio_files_mp3 + audio_files_m4a
             for file in audio_files:
                 file_name_base = os.path.basename(file).split('.')[0]
                 full_file_path = os.path.abspath(file)
