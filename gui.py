@@ -185,17 +185,17 @@ class Window(QMainWindow):
             audio_files_m4a = list(audio_files_path.glob('*.m4a'))
             audio_files = audio_files_wav + audio_files_mp3 + audio_files_m4a
             for file in audio_files:
-                file_name_base = os.path.basename(file).split('.')[0]
+                file_name_base = os.path.basename(file).split('.')[-1]
                 full_file_path = os.path.abspath(file)
                 if self.Unsplash:
                     image_name, color = unsplash_image()
-                    extension = image_name.split('.')[1]
+                    extension = image_name.split('.')[-1]
                     print(image_name)
                     rgb = tuple(int(color.lstrip('#')[i:i + 2], 16) for i in (0, 2, 4))
                     d_color = contrast_color(rgb[0], rgb[1], rgb[2])
                 else:
                     image_name = self.backgroundPicture
-                    extension = image_name.split('.')[1]
+                    extension = image_name.split('.')[-1]
                     print(image_name)
                     im = Image.open(image_name)
                     rgb_im = im.convert('RGB')
